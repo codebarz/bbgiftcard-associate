@@ -82,7 +82,7 @@
   align-items: center;
 }
 .forms-area {
-  width: 70%;
+  width: 65%;
   padding: 70px 0;
 }
 .search-bar {
@@ -95,6 +95,7 @@
   border: none;
   font-size: 1rem;
   text-align: center;
+  outline: none;
   font-weight: bold;
 }
 .search-bar button {
@@ -110,4 +111,70 @@
   padding: 50px;
   border-radius: 30px;
   margin-top: 50px;
+}
+.other-form {
+  display: flex;
+  flex-direction: column;
+}
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.form-buttons button {
+  color: #2f9045;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border: none;
+  background: none;
+}
+.other-forms form {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.other-forms form input {
+  padding: 20px 10px;
+  width: 45%;
+  margin-bottom: 20px;
+  background: #effff5;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+.sub-area {
+  width: 100%;
+  text-align: center;
+}
+.sub-area button {
+  background: #4bae7b;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border-radius: 30px;
+  font-weight: 600;
+}
+.in-other-forms {
+  margin-top: 20px;
+}
+.in-other-forms input {
+  border: 2px solid #ccc;
+  padding: 10px;
+}
+.in-other-forms button {
+  background: #4bae7b;
+}
+.checkout {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+.checkout button {
+  background: #f4ae00;
+  padding: 10px 30px;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
 }
