@@ -5,7 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./styles.css" media="screen" />
-    <title>Babybliss Gift Card Asspciate Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="//cdn.materialdesignicons.com/4.5.95/css/materialdesignicons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100i,300,400,500,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Babybliss Gift Card Associate Dashboard</title>
   </head>
-  <body></body>
+  <body class="associate-dashboard">
+    <header class="main-header">
+      <div class="dash-sub-heading">
+        <ul>
+          <li class="user-email">
+            <i class="mdi mdi-email"></i> info@babybliss.com.ng
+          </li>
+          <li><i class="mdi mdi-message-text"></i></li>
+          <li><i class="mdi mdi-magnify"></i></li>
+          <li><i class="mdi mdi-bell"></i></li>
+        </ul>
+        <div class="user-image"><img src="" /></div>
+      </div>
+      <div class="dash-main-heading">
+        <div class="main-logo"><img src="./logo.png" /></div>
+        <button>Hi Desire</button>
+      </div>
+    </header>
+    <main class="associate-main">
+      <nav class="side-nav">
+        <ul>
+          <li>
+            <a href="#"
+              ><i class="mdi mdi-view-dashboard-outline"></i> Dashboard</a
+            >
+          </li>
+          <li class="bottom-button"><button>Send a Feedback</button></li>
+        </ul>
+      </nav>
+      <section class="main-section">
+        <div class="forms-area">
+          <form>
+            <div class="search-bar">
+              <input type="text" placeholder="Enter Voucher Code" />
+              <button>Search</button>
+            </div>
+          </form>
+          <div class="other-forms">
+            <div class="form-buttons">
+              <button>Recipients Code</button>
+              <button>Balance on Card</button>
+            </div>
+            <form>
+              <input type="text" placeholder="Name:" />
+              <input type="email" placeholder="Email" />
+              <input type="text" placeholder="Phone" />
+              <input type="number" placeholder="Amount to be charge" />
+              <div class="sub-area">
+                <button>Generate OTP:</button>
+              </div>
+            </form>
+            <div class="search-bar in-other-forms">
+              <button>Validate</button>
+              <input type="text" />
+            </div>
+            <div class="checkout">
+              <button>Proceed to checkout</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
