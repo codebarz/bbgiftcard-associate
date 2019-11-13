@@ -69,10 +69,38 @@
   display: flex;
 }
 .side-nav {
-  background: #2f9045;
+  background: #4bae7b;
   height: 100vh;
   position: fixed;
   width: 20%;
+}
+.side-nav ul {
+  padding: 50px;
+}
+.side-nav ul li {
+  display: block;
+  margin: 10px 0;
+}
+.side-nav ul li a {
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.side-nav ul li a:hover {
+  background: #fff;
+  color: #000;
+}
+.side-nav ul li button {
+  padding: 10px 20px;
+  border: none;
+  border: 1px solid #fff;
+  background: none;
+  color: #fff;
+  border-radius: 4px;
+  outline: none;
+}
+.side-nav ul li.button-button {
+  margin-top: auto;
 }
 .main-section {
   width: 80%;
@@ -110,7 +138,7 @@
   background: #fff;
   padding: 50px;
   border-radius: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .other-form {
   display: flex;
@@ -121,7 +149,8 @@
   justify-content: space-between;
 }
 .form-buttons button {
-  color: #2f9045;
+  margin-bottom: 20px;
+  color: #4bae7b;
   font-weight: 600;
   font-size: 1.2rem;
   border: none;
